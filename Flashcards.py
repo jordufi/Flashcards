@@ -59,7 +59,7 @@ class FlashcardApp:
 
 
         self.showing_answer = True
-
+#wd
     def next_question(self):
         
             self.showing_answer = False
