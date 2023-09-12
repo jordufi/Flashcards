@@ -1,6 +1,8 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
+import random
+
 flashcards = [
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Do.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Do.png"},
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Re.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Re.png"},
@@ -67,9 +69,11 @@ class FlashcardApp:
 
             self.flashcard_label2.config(image=self.flashcard_image2)
             
-            self.current_flashcard += 1
-            if self.current_flashcard >= len(flashcards):
-                self.current_flashcard = 0
+            #self.current_flashcard += 1
+            #print(len(flashcards))
+            self.current_flashcard=random.randint(0, len(flashcards)-1)
+            #if self.current_flashcard >= len(flashcards):
+            #    self.current_flashcard = 0
             self.flashcard_image = self.load_and_resize_image(flashcards[self.current_flashcard]["pregunta"])
             self.flashcard_label.config(image=self.flashcard_image)
             
