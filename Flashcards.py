@@ -11,7 +11,18 @@ flashcards = [
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Sol.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Sol.png"},
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/La.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_La.png"},
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Si.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Si.png"},
+
     {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Do2.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Do.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Re2.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Re.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Mi2.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Mi.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Fa2.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Fa.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Sol2.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Sol.png"},
+    
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Mi3.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Mi.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Fa3.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Fa.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Sol3.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Sol.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/La3.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_La.png"},
+    {"pregunta": "F:/programacion/flashcards/images/NotasPentagrama/Si3.png", "respuesta": "F:/programacion/flashcards/images/NotasPentagrama/R_Si.png"},
 
 ]
 import tkinter as tk
